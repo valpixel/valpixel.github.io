@@ -20,6 +20,7 @@ a:hover {
 }
 
 li {
+    list-style-type: none;
     padding-bottom: 20px;
 }
 
@@ -62,7 +63,7 @@ hr {
 }
 
 #musicBtn {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     left: 10px;
 }
