@@ -19,24 +19,13 @@ a:hover {
     color: rgb(117, 117, 207);
 }
 
-li {
-    padding-bottom: 20px;
-}
-
-hr {
-    border: 0;
-    border-top: 2px solid rgb(117, 117, 207);
-    border-radius: 5px;
-}
-
 #title {
-    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 #raizo {
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 10px;
     text-align: left;
@@ -44,21 +33,21 @@ hr {
     font-size: 66%;
 }
 
-#spacing {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
 #content {
     position: absolute;
-    text-align: left;
+    text-align: center;
     left: 50%;
-    top: 15%;
-    transform: translate(-50%, -10%);
-    -webkit-transform: translate(-50%, -10%);
-    -moz-transform: translate(-50%, -10%);
-    -ms-transform: translate(-50%, -10%);
-    -o-transform: translate(-50%, -10%);
+    top: 5%;
+    transform: translate(-50%, -5%);
+    -webkit-transform: translate(-50%, -5%);
+    -moz-transform: translate(-50%, -5%);
+    -ms-transform: translate(-50%, -5%);
+    -o-transform: translate(-50%, -5%);
+}
+
+#spacing {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #musicBtn {
