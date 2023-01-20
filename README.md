@@ -1,2 +1,0 @@
-# valpixel.github.io
-wdwd

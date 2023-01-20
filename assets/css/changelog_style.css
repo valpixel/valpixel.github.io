@@ -1,0 +1,68 @@
+html {
+    cursor: url('../others/images/cursor.png'), default;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: consolas;
+}
+
+a {
+    color: rgb(97, 97, 187);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(117, 117, 207);
+}
+
+li {
+    padding-bottom: 20px;
+}
+
+#title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#raizo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+    vertical-align: bottom;
+    font-size: 66%;
+}
+
+#spacing {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#content {
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -10%);
+    -webkit-transform: translate(-50%, -10%);
+    -moz-transform: translate(-50%, -10%);
+    -ms-transform: translate(-50%, -10%);
+    -o-transform: translate(-50%, -10%);
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid rgb(117, 117, 207);
+    border-radius: 5px;
+}
+
+#musicBtn {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

@@ -1,0 +1,79 @@
+html {
+    cursor: url('../others/images/cursor.png'), default;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: consolas;
+}
+
+a {
+    color: rgb(97, 97, 187);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(117, 117, 207);
+}
+
+a:active {
+    color: rgb(147, 147, 237);
+}
+
+#title {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -5%);
+    -webkit-transform: translate(-50%, -5%);
+    -moz-transform: translate(-50%, -5%);
+    -ms-transform: translate(-50%, -5%);
+    -o-transform: translate(-50%, -5%);
+}
+
+#mid {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+#footer {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+    -webkit-transform: translate(-50%, -70%);
+    -moz-transform: translate(-50%, -70%);
+    -ms-transform: translate(-50%, -70%);
+    -o-transform: translate(-50%, -70%);
+}
+
+#raizo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+    vertical-align: bottom;
+    font-size: 66%;
+}
+
+#musicBtn {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#links {
+    word-spacing: 10px;
+}
